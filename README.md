@@ -8,6 +8,7 @@ Here I will explain that how we can solve storage and networking problems throug
 * After installation we have to start docker by command- *systemctl start docker*, in such a way- 
 
 ![screenshot docker](https://user-images.githubusercontent.com/64313278/80433023-69c31d00-8913-11ea-87b3-c26a5120271e.png)
+
 * By above command docker will not work permanent, when we give *systemctl stop docker* command or when we switch off our system, docker will stop working and we have to restart when require.
 
 ![screenshot stop docker](https://user-images.githubusercontent.com/64313278/80468099-60aa6e00-895c-11ea-818d-ade2db18b5b6.png)
@@ -15,7 +16,6 @@ Here I will explain that how we can solve storage and networking problems throug
 * So for this we run following command for permanent work- *systemctl  enable docker*.
 
 ![screenshot enable docker permanent](https://user-images.githubusercontent.com/64313278/80468379-b8e17000-895c-11ea-91ba-2f5a84a0d8be.png)
-
 
 
 ## Storage Problem Solution
@@ -27,15 +27,24 @@ Here I will explain that how we can solve storage and networking problems throug
 
 or we can also download from https://hub.docker.com/_/mysqlimage.
 
+* Setup of mysql like creating user id, password are -
+
+![screenshot m id](https://user-images.githubusercontent.com/64313278/80481605-67db7700-8970-11ea-8a5b-d75023a13df4.png)
+
+* Database created by me in mysql is -
+
+![screenshot m db](https://user-images.githubusercontent.com/64313278/80481671-86da0900-8970-11ea-9e41-1c6500bfe674.png)
+
 * There is one advantage of using docker for storage purpose that is also mentioned on Google -  
 
 
 ![screenshot google](https://user-images.githubusercontent.com/64313278/80381920-440c2880-88bf-11ea-9e46-dd4c7aab515e.jpg)
 
-* Data that we store is not permanent by default so there might be chances of data lost, to overcome this problem we use docker volume to make data permanent or persistent.
+* Data that we store is empheral in nature, not persistent (or we can say that not permanent) by default so there might be chances of data lost, to overcome this problem we use docker volume to make data permanent or persistent.
 * We can create volume in following manner- 
 
 ![screenshot volume](https://user-images.githubusercontent.com/64313278/80381586-c516f000-88be-11ea-9b69-5ad9616598d9.png)
+
 
 ## Internet Connectivity Problem
 

@@ -12,7 +12,7 @@ Here I will explain that how we can solve storage and networking problems throug
 
 ![screenshot stop docker](https://user-images.githubusercontent.com/64313278/80468099-60aa6e00-895c-11ea-818d-ade2db18b5b6.png)
 
-*So for this we run following command for permanent work- *systemctl  enable docker*.
+* So for this we run following command for permanent work- *systemctl  enable docker*.
 
 ![screenshot enable docker permanent](https://user-images.githubusercontent.com/64313278/80468379-b8e17000-895c-11ea-91ba-2f5a84a0d8be.png)
 
@@ -26,6 +26,7 @@ Here I will explain that how we can solve storage and networking problems throug
 ![screenshot mysql](https://user-images.githubusercontent.com/64313278/80432966-439d7d00-8913-11ea-87a1-ac21b2e69577.png)
 
 or we can also download from https://hub.docker.com/_/mysqlimage.
+
 * There is one advantage of using docker for storage purpose that is also mentioned on Google -  
 
 

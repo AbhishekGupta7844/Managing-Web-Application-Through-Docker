@@ -5,7 +5,7 @@ Here I will explain that how we can solve storage and networking problems throug
 ## Installation
 * First we have to install the docker, I installed the docker on top of Linux os.
 * There are so many websites are available to install and setup docker, so there is no any difficulty in installing.
-* After installation we have to start docker by command- *systemctl start docker*, in such a way- 
+* After installation we have to start docker by command- 'systemctl start docker', in such a way- 
 
 ![screenshot docker](https://user-images.githubusercontent.com/64313278/80433023-69c31d00-8913-11ea-87b3-c26a5120271e.png)
 

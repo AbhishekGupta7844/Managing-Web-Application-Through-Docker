@@ -35,7 +35,7 @@ or we can also download from https://hub.docker.com/_/mysqlimage.
 
 ![screenshot m db](https://user-images.githubusercontent.com/64313278/80481671-86da0900-8970-11ea-9e41-1c6500bfe674.png)
 
-* There is one advantage of using docker for storage purpose that is also mentioned on Google -  
+* There may be one more advantage of using docker for storage purpose that is mentioned on Google -  
 
 
 ![screenshot google](https://user-images.githubusercontent.com/64313278/80381920-440c2880-88bf-11ea-9e46-dd4c7aab515e.jpg)

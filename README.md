@@ -9,11 +9,11 @@ Here I will explain that how we can solve storage and networking problems throug
 
 ![screenshot docker](https://user-images.githubusercontent.com/64313278/80433023-69c31d00-8913-11ea-87b3-c26a5120271e.png)
 
-* By above command docker will not work permanent, when we give *systemctl stop docker* command or when we switch off our system, docker will stop working and we have to restart when require.
+* By above command docker will not work permanent, when we give **systemctl stop docker** command or when we switch off our system, docker will stop working and we have to restart when require.
 
 ![screenshot stop docker](https://user-images.githubusercontent.com/64313278/80468099-60aa6e00-895c-11ea-818d-ade2db18b5b6.png)
 
-* So for this we run following command for permanent work- *systemctl  enable docker*.
+* So for this we run following command for permanent work- **systemctl enable docker**.
 
 ![screenshot enable docker permanent](https://user-images.githubusercontent.com/64313278/80468379-b8e17000-895c-11ea-91ba-2f5a84a0d8be.png)
 
@@ -21,7 +21,7 @@ Here I will explain that how we can solve storage and networking problems throug
 ## Storage Problem Solution
 * We can use any database server but I will use mysql database server.
 * There are so many versions of mysql but I prefer mysql 5.7.
-* So we can install mysql 5.7 by giving command *docker pull mysql:5.7*  
+* So we can install mysql 5.7 by giving command **docker pull mysql:5.7**  
 
 ![screenshot mysql](https://user-images.githubusercontent.com/64313278/80432966-439d7d00-8913-11ea-87a1-ac21b2e69577.png)
 
@@ -49,7 +49,7 @@ or we can also download from https://hub.docker.com/_/mysqlimage.
 ## Internet Connectivity Problem
 
 * The great advantage of docker is that docker is super fast, we can launch any container within seconds so if anytime we lost the connection then we can reconnect within seconds and it will not cause any loss.
-* We can launch any container by simple command *docker run container_name*.
+* We can launch any container by simple command **docker run container_name**.
 
 ![screenshot run](https://user-images.githubusercontent.com/64313278/80468262-94859380-895c-11ea-8443-539c46cc4fc8.png)
 

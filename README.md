@@ -53,6 +53,39 @@ or we can also download from https://hub.docker.com/_/mysqlimage.
 
 ![screenshot volume](https://user-images.githubusercontent.com/64313278/80381586-c516f000-88be-11ea-9b69-5ad9616598d9.png)
 
+* To connect to any web application, first we have to install that particular web application then we require docker compose image so we can install docker compose from https://docs.docker.com/compose/install/  
+* I provide a syntax for compose a file (we can change the value because value is mine but syntax will be same)-
+**version: 'version name'
+  services:
+    (webapplicationname)db:
+      image: mysql:5.7
+      volumes:
+        -mysql_storage_data:/var/lib/mysql
+      restart: always
+      environment:
+          MYSQL_ROOT_PASSWORD: qwerty
+          MYSQL_USER: Abhishek
+          MYSQL_PASSWORD: redhat
+          MYSQL_DATABASE: mydb
+    
+    (webapplicationname)os:
+      image: (image of webapplication)
+      restart:always
+      depends_on:
+         - (webapplicationname)db
+      ports: (port no of webapp)
+      environment:
+         (WEBAPP)_DB_HOST: (host no of webapp)
+         (WEBAPP)_DB_USER: Abhishek
+         (WEBAPP)_DB_PASSWORD: redhat
+         (WEBAPP)_DB_NAME: mydb
+       volume: 
+          - (any):/var/www/html
+
+  volumes:
+    mysql_storage_data:
+    (any, same as above):**
+
 
 ## Internet Connectivity Problem
 

@@ -67,8 +67,7 @@ or we can also download from https://hub.docker.com/_/mysqlimage.
           MYSQL_USER: Abhishek
           MYSQL_PASSWORD: redhat
           MYSQL_DATABASE: mydb
-    
-    (webapplicationname)os:
+        (webapplicationname)os:
       image: (image of webapplication)
       restart:always
       depends_on:
@@ -81,7 +80,6 @@ or we can also download from https://hub.docker.com/_/mysqlimage.
          (WEBAPP)_DB_NAME: mydb
        volume: 
           - (any):/var/www/html
-
   volumes:
     mysql_storage_data:
     (any, same as above):**

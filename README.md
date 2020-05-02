@@ -27,7 +27,7 @@ Here I will explain that how we can solve storage and networking problems throug
 
 or we can also download from https://hub.docker.com/_/mysqlimage.
 
-* Setup of mysql like creating user id, password are -
+* Code for setup of mysql like creating user id, password and database are -   **docker run -d -it    -e MYSQL_ROOT_PASSWORD=qwerty(any)    -e MYSQL_USER=Abhishek(any)     -e MYSQL_PASSWORD=redhat(any)    -e MYSQL_DATABASE=mydb(any)       mysql:5.7**
 
 ![screenshot m id](https://user-images.githubusercontent.com/64313278/80481605-67db7700-8970-11ea-8a5b-d75023a13df4.png)
 

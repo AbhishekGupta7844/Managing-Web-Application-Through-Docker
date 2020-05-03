@@ -55,7 +55,7 @@ or we can also download from https://hub.docker.com/_/mysqlimage.
 
 * To connect to any web application, first we have to install that particular web application then we require docker compose image so we can install docker compose from https://docs.docker.com/compose/install/  
 * I provide a syntax for compose a file (we can change the value because value is mine but syntax will be same)-
-**version: 'version name'
+**version: '(version name)'
   services:
     (webapplicationname)db:
       image: mysql:5.7
